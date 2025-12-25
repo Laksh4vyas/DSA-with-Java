@@ -1,30 +1,5 @@
-import java.util.Scanner;
-/* Find the Largest Element in an Array */
-
-/*public class Main{
-    public static void main(String[] args) {
-        System.out.println("enter the size of array");
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int arr[] = new int[n];
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
-        }
-        int max = arr[0];
-        for (int j = 1; j < arr.length; j++) {
-            if (arr[j] > max) {
-                max = arr[j];
-            }}
-        System.out.println("largest elem is " + max);
-    }
-}
-
- */
-
-
-
-/* find the Second Largest element in an Array
-public class Main{
+import java.util.*;
+public class SecondLargest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter size");
@@ -48,16 +23,5 @@ public class Main{
             }
         }
     System.out.println("second largest elem is "+second_max);
-    }
-}
-
- */
-
-
-/*Check if Array is Sorted */
-
-public class Main{
-    public static void main(String[] args) {
-
     }
 }
