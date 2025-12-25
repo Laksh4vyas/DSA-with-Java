@@ -8,14 +8,17 @@ public class reverse_an_array {
         for (int i = 0; i < number; i++){
             arr[i] = sc.nextInt();
         }
-        int[] temp= new int[number];
-        int j=0;
-        for(int i=number-1;i >= 0; i--){
-            temp[j] = arr[i];
-            j++;
+        int left = 0;
+        int right = number-1;
+        while(left < right){
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
         }
-        for(j=0;j<number;j++) {
-            System.out.println(temp[j]);
+        for(int i : arr) {
+            System.out.println(i);
         }
     }
 }
