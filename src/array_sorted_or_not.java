@@ -4,7 +4,7 @@ public class array_sorted_or_not {
         Scanner sc = new Scanner(System.in);
         int no = sc.nextInt();
         if(no < 2){
-            System.out.println(no);
+            System.out.println("Sorted");
             return;
         }
         int[] arr = new int[no];
